@@ -5,9 +5,9 @@ class DB:
         #connect to the database
         try:
             self.conn = mysql.connector.connect(
-                host='flights.ctuoxf3xiu8j.us-east-1.rds.amazonaws.com',
+                host='flights.ctuoxf.us-east-1.rds.amazonaws.com',
                 user='admin',
-                password='Passwordh1',
+                password='',
                 database='flights'
             )
             self.mycursor = self.conn.cursor()
